@@ -3,3 +3,11 @@ openpyxl
 google-auth
 google-api-python-client
 pynacl
+
+
+#requests
+#openpyxl
+#google-auth
+#google-api-python-client
+#pynacl
+#yt-dlp
