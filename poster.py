@@ -812,6 +812,7 @@ if __name__ == "__main__":
 
 
 
+
 # import os
 # import io
 # import json
@@ -1470,7 +1471,7 @@ if __name__ == "__main__":
 
 #     for row_num, row in all_data_rows(ws):
 #         # Skip rows that are entirely done already.
-#         if row_fully_posted(row):
+#         if row["IG_Status"] in DONE_STATES and row["FB_Status"] in DONE_STATES:
 #             continue
 #         # Skip rows permanently dead on download.
 #         if row["DL_Status"] == "skipped_error":
@@ -1609,3 +1610,4 @@ if __name__ == "__main__":
 
 # if __name__ == "__main__":
 #     main()
+    
